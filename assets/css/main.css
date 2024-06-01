@@ -1645,6 +1645,17 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
+		#footer ul {
+			list-style: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#footer ul li {
+			font-size: 0.8rem;
+		}
+
 		body.is-article-visible #footer {
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);

@@ -10,7 +10,6 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100" style={{ fontFamily: 'Inter, sans-serif' }}>
       <HeroSection />
-      <LivePreview />
       <FeaturesSection />
       <TestimonialsSection />
       <FAQSection />

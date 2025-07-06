@@ -83,8 +83,8 @@ const TestimonialsSection = () => {
                 <span key={i} className="text-yellow-400 text-2xl">★</span>
               ))}
             </div>
-            <span className="font-semibold">4.9/5</span>
-            <span>from 500+ Chrome Web Store reviews</span>
+            <span className="font-semibold">5/5</span>
+            <span>from Chrome Web Store reviews</span>
           </div>
         </div>
       </div>

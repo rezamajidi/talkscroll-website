@@ -1,16 +1,16 @@
 
 import { Card } from "@/components/ui/card";
-import { Chrome, Scroll, Shield, Presentation } from "lucide-react";
+import { NotepadText, ScrollText, Shield, Presentation } from "lucide-react";
 
 const features = [
   {
-    icon: Chrome,
-    title: "Write your script in Chrome",
+    icon: NotepadText,
+    title: "Take notes and to-dos directly during meetings",
     description: "No need for external apps. Create and edit your notes directly in your browser with our clean, distraction-free editor.",
     color: "from-blue-500 to-blue-600"
   },
   {
-    icon: Scroll,
+    icon: ScrollText,
     title: "Scroll at your own pace",
     description: "Control the speed with manual scrolling or auto-scroll. Pause, resume, or adjust the pace mid-presentation without missing a beat.",
     color: "from-teal to-teal/80"
@@ -18,13 +18,13 @@ const features = [
   {
     icon: Shield,
     title: "100% private & secure",
-    description: "No AI, no servers, no data collection. Your notes never leave your browser. Perfect for confidential meetings and sensitive content.",
+    description: "No AI, no servers, no data collection. Your notes never leave your browser.",
     color: "from-emerald-500 to-emerald-600"
   },
   {
     icon: Presentation,
     title: "Perfect for any speaking event",
-    description: "Whether it's presentations, interviews, team calls, or conference talks — stay confident with your key points always in view.",
+    description: "Whether it's presentations, interviews, team calls, or conference talks, stay confident with your key points always in view.",
     color: "from-coral to-coral/80"
   }
 ];
@@ -62,18 +62,6 @@ const FeaturesSection = () => {
               </p>
             </Card>
           ))}
-        </div>
-
-        <div className="text-center mt-16">
-          <div className="inline-flex items-center space-x-4 bg-white rounded-full px-8 py-4 shadow-lg">
-            <span className="text-gray-700 font-semibold">Compatible with:</span>
-            <div className="flex items-center space-x-6">
-              <span className="text-blue-600 font-semibold">Zoom</span>
-              <span className="text-green-600 font-semibold">Google Meet</span>
-              <span className="text-purple-600 font-semibold">Microsoft Teams</span>
-              <span className="text-gray-600">+ any web meeting platform</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>

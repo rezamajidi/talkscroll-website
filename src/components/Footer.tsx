@@ -1,6 +1,6 @@
-
+import { Link } from "@/components/ui/link";
 import { Button } from "@/components/ui/button";
-import { Chrome, Github, Shield } from "lucide-react";
+import { Chrome, Github,Linkedin, Shield } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -14,13 +14,16 @@ const Footer = () => {
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
             Join thousands of professionals who've transformed their meeting confidence with TalkScroll.
           </p>
-          <Button 
+          <Link 
+            href="https://chrome.google.com/webstore"
+            target="_blank"
+            rel="noopener noreferrer"
             size="lg" 
             className="bg-white text-gray-900 hover:bg-gray-100 px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
           >
             <Chrome className="mr-2 h-5 w-5" />
             Install for Free
-          </Button>
+          </Link>
         </div>
 
         {/* Footer Links */}
@@ -61,16 +64,11 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
               <a 
-                href="https://chrome.google.com/webstore" 
+                href="https://www.linkedin.com/in/rezamajidi/" 
+                target="_blank"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors"
               >
-                <Chrome className="h-5 w-5" />
-              </a>
-              <a 
-                href="https://github.com/talkscroll" 
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors"
-              >
-                <Github className="h-5 w-5" />
+                <Linkedin className="h-5 w-5" />
               </a>
             </div>
           </div>

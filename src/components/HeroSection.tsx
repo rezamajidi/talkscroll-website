@@ -1,6 +1,5 @@
 import { Link } from "@/components/ui/link";
-import { Button } from "@/components/ui/button";
-import { Chrome, Play } from "lucide-react";
+import { Chrome } from "lucide-react";
 import LivePreview from "./LivePreview";
 
 const HeroSection = () => {
@@ -40,16 +39,7 @@ const HeroSection = () => {
           >
             <Chrome className="mr-2 h-5 w-5" />
             Install for Free
-          </Link>
-          
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-2 border-coral text-coral hover:bg-coral hover:text-white px-8 py-6 text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-105"
-          >
-            <Play className="mr-2 h-5 w-5" />
-            Watch Demo
-          </Button>
+          </Link>          
         </div>
         
         {/* YouTube video placeholder */}

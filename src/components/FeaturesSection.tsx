@@ -31,7 +31,7 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+    <section className="py-12 lg:py-20 bg-gradient-to-br from-gray-50 to-white" id="features">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -46,11 +46,11 @@ const FeaturesSection = () => {
           {features.map((feature, index) => (
             <Card 
               key={index} 
-              className="p-8 bg-white shadow-lg hover:shadow-xl transition-all duration-300 border-0 hover:scale-[1.02] animate-fade-in group"
+              className="p-6 md:p-8 bg-white shadow-lg hover:shadow-xl transition-all duration-300 border-0 hover:scale-[1.02] animate-fade-in group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className={`w-16 h-16 bg-gradient-to-r ${feature.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                <feature.icon className="h-8 w-8 text-white" />
+              <div className={`w-12 md:w-16 h-12 md:h-16 bg-gradient-to-r ${feature.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                <feature.icon className=" h-6 md:h-8  w-6 md:w-8 text-white" />
               </div>
               
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">

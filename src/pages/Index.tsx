@@ -1,6 +1,5 @@
 
 import HeroSection from "@/components/HeroSection";
-import LivePreview from "@/components/LivePreview";
 import FeaturesSection from "@/components/FeaturesSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import FAQSection from "@/components/FAQSection";

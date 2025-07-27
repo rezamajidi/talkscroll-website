@@ -5,7 +5,7 @@ import LivePreview from "./LivePreview";
 
 const HeroSection = () => {
   return (
-    <section className="relative px-6 py-20 text-center bg-gradient-to-br from-white to-slate-50 overflow-hidden">
+    <section className="relative px-6 pt-12 pb-8 lg:py-20 text-center bg-gradient-to-br from-white to-slate-50 overflow-hidden" id="hero">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(0,128,128,0.02)_50%,transparent_75%)] bg-[length:60px_60px]"></div>
       
